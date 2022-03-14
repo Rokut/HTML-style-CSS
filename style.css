@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+.container {
+    height: 100vh;
+    
+  }
+h1{
+    color: red;
+    font-size: 3rem;
+}
+.container::before{
+    content: "";
+    background-image: url("eifel.jpeg");
+    background-position:center;
+    background-size: cover;
+    opacity: 60%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
